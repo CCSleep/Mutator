@@ -1,7 +1,25 @@
 <?php session_start(); 
 include("../common/bump.php");
+include("../common/conn.php");
 
+$user = $db->query("SELECT * FROM users WHERE username='{$_SESSION["username"]}'")->fetch_assoc();
+
+$hour = date('H', time()) + 7;
+
+if( $hour > 6 && $hour <= 11) {
+  $dates = "Good Morning";
+}
+elseif($hour > 11 && $hour <= 16) {
+  $dates = "Good Afternoon";
+}
+elseif($hour > 16 && $hour <= 23) {
+  $dates = "Good Evening";
+}
+else {
+  $dates = "Good Night";
+}
 ?>
+
 <head>
   <title>Portal - Mutator</title>
   <meta charset="utf-8">
@@ -35,23 +53,32 @@ border-left: 0.5px solid rgb(150,150,150);
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title">Hello, <?php echo $_SESSION["username"]; ?>!</h3>
-        <p class="card-text">Points: 50/100</p>
-        <a href="#" class="btn btn-primary">Study!</a>
+        <h3 class="card-title"><?php echo $dates; ?>, <?php echo $_SESSION["username"]; ?>!</h3>
+        <p class="card-text">Points: <?php echo $user["points"]; ?>/100</p>
+        <a href="zoom.php" class="btn btn-Success">Study!</a>
       </div>
     </div>
+    
   </div>
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h3 class="card-title">Works to clear</h3>
-        <p class="card-text">- Work 1</p>
-        <p class="card-text">- Work 2</p>
-        <p class="card-text">- Work 3</p>
+        <?php 
+        $q1 = $db->query("SELECT hwid FROM homework_clear WHERE status<>2 AND name='{$_SESSION["username"]}'");
+        $works = "'".join("', '", $q1->fetch_assoc())."'";
+        $q2 = $db->query("SELECT * FROM homework WHERE id NOT IN ($works)");
+        while ($row = $q2->fetch_assoc()){
+        ?>
+        <p class="card-text">- <?php echo $row["name"]; ?> (<?php echo $row["points"]; ?> points)</p>
+        <?php } ?>
       </div>
     </div>
   </div>
-</div>
+</div> 
+<br>
+
 </body>
 
+</script>
 

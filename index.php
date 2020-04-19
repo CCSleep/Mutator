@@ -91,7 +91,7 @@ var x = "code";
   <b>Flying Higher</b>
   </div>
   <div class="card-text" style="color: #FFFFFF; ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ipsum et sapien imperdiet tempus.
+บินไปให้สูงสุดฟ้า คว้าฝันให้ได้อย่างที่ฝัน เพียงแค่อดทนมุ่งมั่นทำมัน ความสำเร็จนั้นจะกลายเป็นจริง
   </div>
 </div>
 	  </div>
@@ -108,7 +108,7 @@ var x = "code";
   <b>Piggy Bank</b>
   </div>
   <div class="card-text" style="color: #FFFFFF; ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ipsum et sapien imperdiet tempus.
+การเรียนเหมือนการหยอกกระปุก ค่อยๆ สะสมไปเรื่อยๆ เดี๋ยวมันก็เต็ม
   </div>
 </div>
 	  </div>
@@ -125,7 +125,7 @@ var x = "code";
   <b>Orchid</b>
   </div>
   <div class="card-text" style="color: #FFFFFF; ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ipsum et sapien imperdiet tempus.
+อดทนปลูกความเพียร ทำโจทย์เยอะๆ ทบทวนบ่อยๆ มันจะงดงาม หอมหวาน คุ้มค่า
   </div>
 </div>
 	  </div>
@@ -142,7 +142,7 @@ var x = "code";
   <b>Plant</b>
   </div>
   <div class="card-text" style="color: #FFFFFF; ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ipsum et sapien imperdiet tempus.
+การศึกษาเหมือนดังปลูกผลไม้ ค่อยๆรดน้ำ พรวนดิน เพียรทำเหตุให้ถึงพร้อม พอวันที่ผลออกมา มันก็จะหอมอร่อย กินแล้วชื่นใจ
   </div>
 </div>
 	  </div>

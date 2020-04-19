@@ -12,7 +12,27 @@
         <a class="nav-link" href="portal.php"><i class="fa fa-home"></i> Lobby <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active animated fadeIn">
-        <a class="nav-link" href="homework.php"><i class="fa fa-sticky-note"></i> Homework </a>
+        <a class="nav-link" href="announce.php"><i class="fa fa-sticky-note"></i> Announcement </a>
+      </li>
+      <li class="nav-item active animated fadeIn">
+        <a class="nav-link" href="homework.php"><i class="fa fa-clipboard"></i> Assignments </a>
+      </li>
+      <li class="nav-item active animated fadeIn">
+        <a class="nav-link" href="hwstatus.php"><i class="fa fa-send"></i> Submit </a>
+      </li>
+       <li class="nav-item active animated fadeIn">
+        <a class="nav-link" href="mainvid.php"><i class="fa fa-file-video-o"></i> Class Video </a>
+      </li>
+      <?php if ($_SESSION["rank"] == 1) { ?>
+       <li class="nav-item active animated fadeIn">
+        <a class="nav-link" href="upload.php"><i class="fa fa-upload"></i> Upload Video </a>
+      </li>
+      <li class="nav-item active animated fadeIn">
+        <a class="nav-link" href="admin.php"><i class="fa fa-shield"></i> Admin Panel </a>
+      </li>
+    <?php } ?>
+    <li class="nav-item active animated fadeIn">
+        <a class="nav-link" href="zoom.php"><i class="fa fa-video-camera"></i> Live Learning </a>
       </li>
    </ul>
    <div class="form-inline my-2 my-lg-0">
@@ -28,6 +48,7 @@
     <li class="nav-item active animated fadeInRight" >
         <p style="margin-top: 2px;" id="date"></p> <div class="time" style="margin-top: -8px;"><p id="time" style="color: #FF1493;"></p></div>
       </li>
+
    </ul>
     </div>
   </div>
@@ -76,4 +97,5 @@ function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;
 }
+startTime();
 </script>
