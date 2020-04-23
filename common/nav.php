@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index:999;">
   <a class="navbar-brand animated fadeInLeft" href="#">
     <img src="/assets/logo.png" width="30" height="30" alt="">
   </a>
@@ -20,15 +20,31 @@
       <li class="nav-item active animated fadeIn">
         <a class="nav-link" href="hwstatus.php"><i class="fa fa-send"></i> Submit </a>
       </li>
-       <li class="nav-item active animated fadeIn">
-        <a class="nav-link" href="mainvid.php"><i class="fa fa-file-video-o"></i> Class Video </a>
+      <li class="nav-item dropdown active animated fadeIn">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-file-video-o"></i> Video
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: 2;">
+          <a class="nav-link" href="mainvid.php"><i class="fa fa-file-video-o"></i> Class Video </a>
+          <div class="dropdown-divider"></div>
+          <?php if ($_SESSION["rank"] == 1) { ?>
+          <a class="nav-link" href="upload.php"><i class="fa fa-upload"></i> Upload Video </a>
+          <?php } ?>
+        </div>
       </li>
+
       <?php if ($_SESSION["rank"] == 1) { ?>
-       <li class="nav-item active animated fadeIn">
-        <a class="nav-link" href="upload.php"><i class="fa fa-upload"></i> Upload Video </a>
+      <li class="nav-item dropdown active animated fadeIn">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-shield"></i> Admin
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown2" style="z-index: 2;">
+          <a class="nav-link" href="admin.php"><i class="fa fa-shield"></i> Panel </a>
+          <a class="nav-link" href="admin.student.php"><i class="fa fa-user-o"></i> Students </a>
+        </div>
       </li>
       <li class="nav-item active animated fadeIn">
-        <a class="nav-link" href="admin.php"><i class="fa fa-shield"></i> Admin Panel </a>
+        
       </li>
     <?php } ?>
     <li class="nav-item active animated fadeIn">
