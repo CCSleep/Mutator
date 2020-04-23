@@ -33,6 +33,7 @@ border-left: 0.5px solid rgb(150,150,150);
 <?php include "../common/nav.php";  ?>
 <br>
 <center><h1 class="animated fadeInDown">Live Learning</h1></center><br>
+<?php if ($_SESSION["rank"]==1) { ?>
 <?php if (isset($_GET["id"])) { ?>
 <h3 align="center" class="animated fadeIn">Connected on room <strong><?php echo $_GET["id"]; ?></strong></h3><br>
 <center><div align="center" id="otEmbedContainer" style="width:800px; height:640px"></div></center>
@@ -49,5 +50,9 @@ border-left: 0.5px solid rgb(150,150,150);
 </form>
 </center>
 
+<?php } ?>
+<?php } else { ?>
+<center><div align="center" id="otEmbedContainer" style="width:800px; height:640px"></div></center>
+<script src="https://tokbox.com/embed/embed/ot-embed.js?embedId=16839873-27e0-475f-843a-6f2cc91fcf2e&room=<?php echo $user["class"]; ?>"></script>
 <?php } ?>
 </body>

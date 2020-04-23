@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 19, 2020 at 11:49 AM
+-- Generation Time: Apr 23, 2020 at 11:44 AM
 -- Server version: 5.7.29-cll-lve
 -- PHP Version: 7.3.6
 
@@ -36,6 +36,13 @@ CREATE TABLE `homework` (
   `points` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `homework`
+--
+
+INSERT INTO `homework` (`id`, `name`, `description`, `file`, `points`) VALUES
+(8, 'The New Homework', 'Homework for tests', 'null', 2);
+
 -- --------------------------------------------------------
 
 --
@@ -50,6 +57,14 @@ CREATE TABLE `homework_clear` (
   `status` int(11) NOT NULL DEFAULT '0',
   `score` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `homework_clear`
+--
+
+INSERT INTO `homework_clear` (`id`, `name`, `hwid`, `file`, `status`, `score`) VALUES
+(6, '1898', 8, '/page/attach/a2b3dbece7/answersheet.py', 1, 2),
+(7, '1888', 8, '/page/attach/54c62ebf06/1_8.jpg', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -74,6 +89,9 @@ CREATE TABLE `users` (
   `username` varchar(20) NOT NULL,
   `password` varchar(8) NOT NULL,
   `rank` int(11) NOT NULL DEFAULT '0',
+  `name` varchar(200) NOT NULL,
+  `class` varchar(20) NOT NULL,
+  `num` int(10) NOT NULL,
   `points` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -81,8 +99,10 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`, `rank`, `points`) VALUES
-(6, '126565', '548989', 1, 0);
+INSERT INTO `users` (`id`, `username`, `password`, `rank`, `name`, `class`, `num`, `points`) VALUES
+(6, '126565', '548989', 1, 'class admin', '199', 5, 0),
+(7, '1898', '6666', 0, 'class student', '101', 1, 2),
+(8, '1888', '3434', 0, 'à¸™à¸²à¸¢à¸›à¸£à¸°à¸¢à¸¸à¸—à¸˜à¹Œ à¸ˆà¸±à¸™à¸—à¸£à¹Œà¹‚à¸—à¸£à¸¥à¸²', '111', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -143,31 +163,31 @@ ALTER TABLE `videos`
 -- AUTO_INCREMENT for table `homework`
 --
 ALTER TABLE `homework`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `homework_clear`
 --
 ALTER TABLE `homework_clear`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `hw`
 --
 ALTER TABLE `hw`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

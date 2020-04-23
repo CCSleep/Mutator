@@ -39,7 +39,7 @@ border-left: 0.5px solid rgb(150,150,150);
 if (isset($_POST["action"])) {
     switch ($_POST["action"]){
         case "adduser":
-            $db->query("INSERT INTO users (username,password,rank) VALUES ('{$_POST["username"]}','{$_POST["password"]}','{$_POST["rank"]}')");
+            $db->query("INSERT INTO users (username,password,rank,name,class,num) VALUES ('{$_POST["username"]}','{$_POST["password"]}','{$_POST["rank"]}','{$_POST["name"]}','{$_POST["classes"]}','{$_POST["num"]}')");
             ?>
             <div class="alert alert-info animated flipInX">
                 Successfully added user <strong><?php echo $_POST["username"]; ?></strong>
@@ -58,15 +58,21 @@ if (isset($_POST["action"])) {
     <input type="hidden" name="action" value="adduser">
     <div class="col-4">
         <input class="form-control" placeholder="Username" type="text" name="username">
+        <br>
+        <input class="form-control" placeholder="Name" type="text" name="name">
     </div>
     <div class="col-4">
         <input class="form-control" placeholder="Password" type="password" name="password">
+        <br>
+         <input class="form-control" placeholder="Class" type="text" name="classes">
     </div>
     <div class="col-2">
         <select class="form-control" name="rank">
       <option value="0">Student</option>
       <option value="1">Teacher</option>
     </select>
+    <br>
+     <input class="form-control" placeholder="No." type="number" name="num">
     </div>
     <div class="col-2">
         <button type="submit" class="btn btn-primary">Add User</button>

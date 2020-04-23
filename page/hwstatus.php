@@ -67,7 +67,7 @@ while ($row = $q4->fetch_assoc()){
     </div>
     <div class="card-body">
     <h4 class="card-title"><?php echo $name; ?></h4>
-    <p class="card-text">Student ID: <?php echo $row["name"]; ?></p>
+    <p class="card-text">Student: <?php echo $db->query("SELECT * FROM users WHERE username='{$row["name"]}'")->fetch_assoc()["name"]; ?></p>
         <a href="<?php echo $row["file"]; ?>" class="btn btn-primary" download>Download File</a>
         
     <div style="display: flex;">

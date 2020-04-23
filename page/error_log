@@ -1,0 +1,64 @@
+[20-Apr-2020 08:29:22 UTC] PHP Notice:  Undefined index: username in /home/devtk/public_html/misaku/page/homework.php on line 5
+[20-Apr-2020 08:29:22 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[20-Apr-2020 08:29:22 UTC] PHP Notice:  Undefined index: username in /home/devtk/public_html/misaku/common/nav.php on line 41
+[20-Apr-2020 08:29:22 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/homework.php on line 62
+[21-Apr-2020 14:55:35 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[21-Apr-2020 15:01:50 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[21-Apr-2020 15:02:08 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[21-Apr-2020 15:02:39 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[21-Apr-2020 15:02:45 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[21-Apr-2020 15:02:57 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[21-Apr-2020 15:03:09 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[21-Apr-2020 15:04:17 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[21-Apr-2020 15:04:26 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[21-Apr-2020 15:04:26 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/hwstatus.php on line 110
+[21-Apr-2020 15:07:05 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[22-Apr-2020 14:25:47 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[22-Apr-2020 14:26:02 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[22-Apr-2020 14:26:43 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[23-Apr-2020 15:12:48 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[23-Apr-2020 15:17:53 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 69
+[23-Apr-2020 15:22:53 UTC] PHP Notice:  Undefined index: name in /home/devtk/public_html/misaku/page/portal.php on line 56
+[23-Apr-2020 15:22:53 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 70
+[23-Apr-2020 15:23:24 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 70
+[23-Apr-2020 15:26:03 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:26:03 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 70
+[23-Apr-2020 15:26:08 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:26:08 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/announce.php on line 36
+[23-Apr-2020 15:26:10 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:26:10 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/homework.php on line 62
+[23-Apr-2020 15:26:13 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:26:13 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/hwstatus.php on line 37
+[23-Apr-2020 15:26:13 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[23-Apr-2020 15:26:13 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/hwstatus.php on line 110
+[23-Apr-2020 15:26:15 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:26:20 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:26:20 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/hwstatus.php on line 37
+[23-Apr-2020 15:26:20 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[23-Apr-2020 15:26:20 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/hwstatus.php on line 110
+[23-Apr-2020 15:26:37 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:26:37 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/hwstatus.php on line 37
+[23-Apr-2020 15:26:55 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:26:55 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 70
+[23-Apr-2020 15:27:00 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:27:00 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/homework.php on line 62
+[23-Apr-2020 15:27:02 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:27:02 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/homework.php on line 62
+[23-Apr-2020 15:27:04 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:27:04 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/hwstatus.php on line 37
+[23-Apr-2020 15:27:04 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[23-Apr-2020 15:27:04 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/hwstatus.php on line 110
+[23-Apr-2020 15:27:08 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:27:08 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/hwstatus.php on line 37
+[23-Apr-2020 15:27:08 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[23-Apr-2020 15:27:08 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/hwstatus.php on line 110
+[23-Apr-2020 15:28:00 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/common/nav.php on line 26
+[23-Apr-2020 15:28:00 UTC] PHP Notice:  Undefined index: rank in /home/devtk/public_html/misaku/page/hwstatus.php on line 37
+[23-Apr-2020 15:28:00 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[23-Apr-2020 15:28:00 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/hwstatus.php on line 110
+[23-Apr-2020 15:28:09 UTC] PHP Warning:  join(): Invalid arguments passed in /home/devtk/public_html/misaku/page/portal.php on line 70
+[23-Apr-2020 15:34:16 UTC] PHP Notice:  Undefined index: id in /home/devtk/public_html/misaku/page/zoom.php on line 55
+[23-Apr-2020 15:35:16 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[23-Apr-2020 15:35:34 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[23-Apr-2020 15:37:03 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90
+[23-Apr-2020 15:38:07 UTC] PHP Notice:  Undefined index: file in /home/devtk/public_html/misaku/page/hwstatus.php on line 90

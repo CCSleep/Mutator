@@ -53,8 +53,9 @@ border-left: 0.5px solid rgb(150,150,150);
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title"><?php echo $dates; ?>, <?php echo $_SESSION["username"]; ?>!</h3>
-        <p class="card-text">Points: <?php echo $user["points"]; ?>/100</p>
+        <h3 class="card-title"><?php echo $dates; ?>, <?php echo explode(" ",$user["name"])[0]; ?>!</h3>
+        <p class="card-text">Class/Number: <?php echo $user["class"]."/".$user["num"]; ?></p>
+        <p class="card-text">Points: <?php echo $user["points"]; ?></p>
         <a href="zoom.php" class="btn btn-Success">Study!</a>
       </div>
     </div>
